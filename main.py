@@ -12,6 +12,7 @@ userIds = os.environ['userIds'].split(',')
 authKeys = os.environ['authKeys'].split(',')
 secretKeys = os.environ['secretKeys'].split(',')
 fate_region = os.environ['fateRegion']
+print("fate_region =", fate_region)
 webhook_discord_url = os.environ['webhookDiscord']
 UA = os.environ['UserAgent']
 
