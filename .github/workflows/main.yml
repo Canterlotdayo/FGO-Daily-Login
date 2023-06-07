@@ -27,9 +27,9 @@ jobs:
         run: |
           python3 main.py
         env:
-          userIds: ${{ secrets.GAME_USERIDS }}
-          authKeys: ${{ secrets.GAME_AUTHKEYS }}
-          secretKeys: ${{ secrets.GAME_SECRETKEYS }}
-          UserAgent: ${{ secrets.GAME_USERAGENT }}
-          fateRegion: ${{ secrets.GAME_REGION }}
-          webhookDiscord: ${{ secrets.DISCORD_WEBHOOK }}
+          userIds: ${{ secrets.fgo.GAME_USERIDS }}
+          authKeys: ${{ secrets.fgo.GAME_AUTHKEYS }}
+          secretKeys: ${{ secrets.fgo.GAME_SECRETKEYS }}
+          UserAgent: ${{ secrets.fgo.GAME_USERAGENT }}
+          fateRegion: ${{ secrets.fgo.GAME_REGION }}
+          webhookDiscord: ${{ secrets.fgo.DISCORD_WEBHOOK }}
